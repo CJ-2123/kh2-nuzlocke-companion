@@ -1,0 +1,16 @@
+title: KH2 Nuzlocke Companion v2
+description: Put above seed. Requires lua library. Gives 99 boosts and Fire, Blizzard, Thunder in GoA.
+assets:
+  - name: scripts/start-with-boosts.lua
+    method: copy
+    source:
+      - name: start-with-boosts.lua
+  - method: binarc
+    name: 03system.bin
+    source:
+      - method: listpatch
+        name: trsr
+        source:
+          - name: TrsrList.yml
+            type: trsr
+        type: List
